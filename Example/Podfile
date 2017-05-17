@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FYHLib_Example' do
+  pod 'FYHLib', :path => '../'
+
+  target 'FYHLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
